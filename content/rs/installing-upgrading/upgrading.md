@@ -21,7 +21,7 @@ Note: A Redis Enterprise Software cluster upgrade is considered to be
 "ongoing" when nodes within a cluster have mixed versions. The upgrade
 is only considered complete when all nodes of the cluster are upgraded
 to the new version. Attempting to use newly added capabilities from the
-newer version of Redis Enterprise Software when the upgrade is ongoing,
+newer version of Redis Enterprise Software, or restarting a node when the upgrade is ongoing,
 can produce unexpected results or cause failures in the cluster.
 
 ## Upgrading nodes
